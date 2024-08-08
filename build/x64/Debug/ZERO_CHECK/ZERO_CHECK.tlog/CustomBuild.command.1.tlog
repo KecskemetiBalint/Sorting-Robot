@@ -1,0 +1,10 @@
+^C:\USERS\20230954\ONEDRIVE - TU EINDHOVEN\DOCUMENTS\2IO75\EMBSYSGR10\BUILD\CMAKEFILES\96BF0BF1BEFB7F2233CEF17A27F44587\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/20230954/OneDrive - TU Eindhoven/Documents/2IO75/EmbSysGR10" "-BC:/Users/20230954/OneDrive - TU Eindhoven/Documents/2IO75/EmbSysGR10/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/20230954/OneDrive - TU Eindhoven/Documents/2IO75/EmbSysGR10/build/EmbSysGR10.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

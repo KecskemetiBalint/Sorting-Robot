@@ -1,0 +1,9 @@
+Commands in Terminal:
+
+1. Build:
+mkdir build
+cmake -B .\build\
+cmake --build .\build\
+
+2.Running
+.\build\Debug\EmbSysGR10.exe
